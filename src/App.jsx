@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-
+import oges from './assets/oges.jpeg';
 function App() {
   const [username, setuser] = useState("")
   const [password, setpass] = useState("")
@@ -29,7 +29,7 @@ function App() {
     <div className="page">
       <div className="login-card">
         <div className="brand-panel">
-          <div className="brand-icon">A</div>
+          <div className="brand-icon"><img src={oges} style={{width:"50px"}}></img></div>
           <h1>Welcome Back</h1>
           <p>Sign in to continue to your account.</p>
         </div>
